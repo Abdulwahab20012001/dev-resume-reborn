@@ -1,4 +1,3 @@
-
 const projects = [
   {
     name: "Awesome Flutter App",
@@ -28,6 +27,12 @@ const projects = [
     name: "Java REST Service",
     description: "Robust RESTful service for enterprise integration.",
     stack: ["Java", "Spring"],
+    link: "#",
+  },
+  {
+    name: "StudyBuddy: Connect with Tutor",
+    description: "A collaborative platform to connect students with tutors for study sessions.",
+    stack: ["React", "Node.js", "MongoDB"],
     link: "#",
   },
 ];

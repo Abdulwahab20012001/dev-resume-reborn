@@ -8,11 +8,17 @@ const Hero = () => (
       draggable={false}
     />
     <div className="max-w-xl text-center md:text-left flex flex-col items-center md:items-start">
-      <h1 className="text-3xl md:text-5xl font-bold tracking-tight mb-2">Hi, I'm <span className="text-primary">Your Name</span></h1>
+      <h1 className="text-3xl md:text-5xl font-bold tracking-tight mb-2">
+        Hi, I'm <span className="text-primary">Abdulwahab</span>
+      </h1>
       <p className="text-lg text-muted-foreground mb-4 max-w-lg">
-        Computer Science graduate • Full-Stack & Flutter Developer<br/>
+        Computer Science graduate • Full-Stack &amp; Flutter Developer
+        <br />
         {/* Tagline can be more personal */}
-        Building solid, beautiful software with <span className="font-semibold text-primary">Flutter, Dart, Node.js, .NET, Java, and React</span>
+        Building solid, beautiful software with{" "}
+        <span className="font-semibold text-primary">
+          Flutter, Dart, Node.js, .NET, Java, and React
+        </span>
       </p>
       <a
         href="#contact"

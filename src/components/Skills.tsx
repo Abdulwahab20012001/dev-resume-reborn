@@ -1,5 +1,5 @@
 
-import { Zap, Feather, Hexagon, Leaf, Atom, Dot, Coffee } from "lucide-react";
+import { Zap, Feather, Hexagon, Leaf, Atom, Dot, Coffee, Palette } from "lucide-react";
 
 const skills = [
   {
@@ -31,6 +31,11 @@ const skills = [
     name: "Java",
     icon: <Coffee className="w-7 h-7 text-orange-500" />,
     description: "Robust backend and Android.",
+  },
+  {
+    name: "UI/UX",
+    icon: <Palette className="w-7 h-7 text-pink-500" />,
+    description: "User-centric and attractive interfaces.",
   },
 ];
 

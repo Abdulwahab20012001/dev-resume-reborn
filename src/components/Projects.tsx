@@ -31,8 +31,9 @@ const projects = [
   },
   {
     name: "StudyBuddy: Connect with Tutor",
-    description: "A collaborative platform to connect students with tutors for study sessions.",
-    stack: ["React", "Node.js", "MongoDB"],
+    description:
+      "StudyBuddy is a Flutter-based e-learning mobile app that connects students with tutors. It features course creation, a tutor finder, chat functionality, and secure payments via Stripe. Firebase powers real-time data handling and user authentication, making the platform seamless and scalable.",
+    stack: ["Flutter", "Firebase", "Stripe"],
     link: "#",
   },
 ];

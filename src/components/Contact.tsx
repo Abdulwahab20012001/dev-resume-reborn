@@ -13,7 +13,14 @@ const Contact = () => (
     </a>
     <div className="mt-6 flex flex-wrap gap-4 text-muted-foreground justify-center text-sm">
       {/* Example social handles - update as needed */}
-      <a href="#" className="hover:text-primary underline">LinkedIn</a>
+      <a
+        href="https://linkedin.com/in/abdul-wahab-159123215"
+        className="hover:text-primary underline"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        LinkedIn
+      </a>
       <a href="#" className="hover:text-primary underline">GitHub</a>
       <a href="#" className="hover:text-primary underline">Twitter</a>
     </div>
@@ -21,3 +28,4 @@ const Contact = () => (
 );
 
 export default Contact;
+

@@ -1,5 +1,5 @@
 
-import { Zap, Feather, Hexagon, NodeJs, ReactLogo, Dot, Java } from "lucide-react";
+import { Zap, Feather, Hexagon, Leaf, Atom, Dot, Coffee } from "lucide-react";
 
 const skills = [
   {
@@ -14,12 +14,12 @@ const skills = [
   },
   {
     name: "Node.js",
-    icon: <NodeJs className="w-7 h-7 text-green-600" />,
+    icon: <Leaf className="w-7 h-7 text-green-600" />,
     description: "Efficient backend & APIs.",
   },
   {
     name: "React",
-    icon: <ReactLogo className="w-7 h-7 text-sky-500" />,
+    icon: <Atom className="w-7 h-7 text-sky-500" />,
     description: "Sleek, interactive web UIs.",
   },
   {
@@ -29,7 +29,7 @@ const skills = [
   },
   {
     name: "Java",
-    icon: <Hexagon className="w-7 h-7 text-orange-500" />,
+    icon: <Coffee className="w-7 h-7 text-orange-500" />,
     description: "Robust backend and Android.",
   },
 ];

@@ -1,8 +1,7 @@
-
 const Hero = () => (
   <div className="flex flex-col items-center justify-center py-16 md:flex-row md:gap-10 gap-6 animate-fade-in">
     <img
-      src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=facearea&w=256&q=80"
+      src="/lovable-uploads/fd990832-2e37-43ee-af11-2722cbb9464a.png"
       alt="Profile"
       className="w-40 h-40 rounded-full object-cover border-4 border-primary shadow-lg mb-4 md:mb-0"
       draggable={false}

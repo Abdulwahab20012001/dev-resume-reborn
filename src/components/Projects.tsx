@@ -1,39 +1,10 @@
+
 const projects = [
-  {
-    name: "Awesome Flutter App",
-    description: "A cross-platform mobile app built using Flutter and Dart.",
-    stack: ["Flutter", "Dart"],
-    link: "#",
-  },
-  {
-    name: "Node.js API Backend",
-    description: "RESTful API using Node.js & Express with JWT authentication.",
-    stack: ["Node.js", "Express", "JWT"],
-    link: "#",
-  },
-  {
-    name: "React Dashboard",
-    description: "Rich-interactive admin dashboard with React & Tailwind CSS.",
-    stack: ["React", "Tailwind"],
-    link: "#",
-  },
-  {
-    name: ".NET Inventory System",
-    description: "Inventory management system with .NET and SQL Server.",
-    stack: [".NET", "SQL Server"],
-    link: "#",
-  },
-  {
-    name: "Java REST Service",
-    description: "Robust RESTful service for enterprise integration.",
-    stack: ["Java", "Spring"],
-    link: "#",
-  },
   {
     name: "StudyBuddy: Connect with Tutor",
     description:
       "StudyBuddy is a Flutter-based e-learning mobile app that connects students with tutors. It features course creation, a tutor finder, chat functionality, and secure payments via Stripe. Firebase powers real-time data handling and user authentication, making the platform seamless and scalable.",
-    stack: ["Flutter", "Firebase", "Stripe"],
+    stack: ["Flutter", "Dart", "Firebase", "Stripe"],
     link: "#",
   },
 ];
@@ -50,7 +21,6 @@ const Projects = () => (
           <div className="flex flex-col gap-2">
             <div className="flex items-center gap-2 text-lg font-medium">
               <span>{project.name}</span>
-              {/* Simulate link if URL is set */}
               {project.link !== "#" && (
                 <a
                   href={project.link}
@@ -81,3 +51,4 @@ const Projects = () => (
 );
 
 export default Projects;
+
